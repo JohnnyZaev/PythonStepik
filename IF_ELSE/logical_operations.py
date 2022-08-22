@@ -32,3 +32,16 @@ if ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0):
     print("YES")
 else:
     print("NO")
+
+a, b, c, d = int(input()), int(input()), int(input()), int(input())
+if (a == c or b == d):
+    print("YES")
+else:
+    print("NO")
+
+ax, ay, bx, by = int(input()), int(input()), int(input()), int(input())
+new_x, new_y = bx - ax, by - ay
+if (-1 <= new_x <= 1 and -1 <= new_y <= 1):
+    print("YES")
+else:
+    print("NO")
