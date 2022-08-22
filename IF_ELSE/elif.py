@@ -77,3 +77,48 @@ if ((a == "красный" or a == "синий" or a == "желтый") and (b =
             print("зеленый")
 else:
     print("ошибка цвета")
+
+x = int(input())
+if x < 0 or x > 36:
+    print("ошибка ввода")
+else:
+    if x == 0:
+        print("зеленый")
+    elif x <= 10:
+        if x % 2:
+            print("красный")
+        else:
+            print("черный")
+    elif x <= 18:
+        if x % 2:
+            print("черный")
+        else:
+            print("красный")
+    elif x <= 28:
+        if x % 2:
+            print("красный")
+        else:
+            print("черный")
+    elif x <= 36:
+        if x % 2:
+            print("черный")
+        else:
+            print("красный")
+
+a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input())
+if b1 < a2 or b2 < a1:
+    print("пустое множество")
+elif b1 == a2:
+    print(b1)
+elif a1 == b2:
+    print(a1)
+elif a1 <= a2 < b1 < b2:
+    print(a2, b1)
+elif a2 <= a1 < b2 < b1:
+    print(a1, b2)
+elif a1 < a2 < b2 <= b1:
+    print(a2, b2)
+elif a2 < a1 < b1 <= b2:
+    print(a1, b1)
+elif a1 == a2 and b1 == b2:
+    print(a1, b1)
