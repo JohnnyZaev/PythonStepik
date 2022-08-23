@@ -22,3 +22,8 @@ for i in range(n):
     else:
         result += 4
 print(result)
+
+print(int(float(input()) * 10 % 10))
+
+x = float(input())
+print(x - int(x))
