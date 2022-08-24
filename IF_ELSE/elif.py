@@ -122,3 +122,13 @@ elif a2 < a1 < b1 <= b2:
     print(a1, b1)
 elif a1 == a2 and b1 == b2:
     print(a1, b1)
+
+a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
+
+print("Наименьшее число =", min(a, b, c, d, e))
+print("Наибольшее число =", max(a, b, c, d, e))
+
+a, b, c = int(input()), int(input()), int(input())
+print(max(a, b, c))
+print(a + b + c - min(a, b, c) - max(a, b, c))
+print(min(a, b, c))
