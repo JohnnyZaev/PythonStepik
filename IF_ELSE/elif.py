@@ -132,3 +132,10 @@ a, b, c = int(input()), int(input()), int(input())
 print(max(a, b, c))
 print(a + b + c - min(a, b, c) - max(a, b, c))
 print(min(a, b, c))
+
+n = int(input())
+a, b, c = n // 100, (n % 100) // 10, n % 10
+if (max(a, b, c) - min(a, b, c) == a + b + c - max(a, b, c) - min(a, b, c)):
+    print("Число интересное")
+else:
+    print("Число неинтересное")
