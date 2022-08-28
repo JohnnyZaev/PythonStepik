@@ -139,3 +139,9 @@ if (max(a, b, c) - min(a, b, c) == a + b + c - max(a, b, c) - min(a, b, c)):
     print("Число интересное")
 else:
     print("Число неинтересное")
+
+a, b, c, d, e = float(input()), float(input()), float(input()), float(input()), float(input())
+print(abs(a) + abs(b) + abs(c) + abs(d) + abs(e))
+
+p1, p2, q1, q2 = int(input()), int(input()), int(input()), int(input())
+print(abs(p1 - q1) + abs(p2 - q2))
