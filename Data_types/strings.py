@@ -4,3 +4,6 @@ name = input()
 surname = input()
 print("Hello", name, surname, end="! ")
 print("You just delved into Python")
+
+name = input()
+print("Футбольная команда", name, "имеет длину", len(name), "символов")
