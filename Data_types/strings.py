@@ -39,3 +39,9 @@ if 'суббота' in day or 'воскресенье' in day:
     print("YES")
 else:
     print("NO")
+
+email = input()
+if '.' in email and '@' in email:
+    print("YES")
+else:
+    print("NO")
