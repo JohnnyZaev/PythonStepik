@@ -33,3 +33,9 @@ if 'синий' in input():
     print("YES")
 else:
     print("NO")
+
+day = input()
+if 'суббота' in day or 'воскресенье' in day:
+    print("YES")
+else:
+    print("NO")
