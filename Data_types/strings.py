@@ -22,3 +22,9 @@ elif (max(len1, len2, len3) == len2):
     print(town2)
 else:
     print(town3)
+
+a, b, c = len(input()), len(input()), len(input())
+if (2 * b - c - a) * (2 * c - b - a) * (2 * a - b - c) == 0:
+    print("YES")
+else:
+    print("NO")
