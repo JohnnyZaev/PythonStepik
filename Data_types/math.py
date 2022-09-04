@@ -10,3 +10,6 @@ print((a + b) / 2, math.sqrt(a * b), 2 * a * b / (a + b), math.sqrt((a ** 2 + b 
 
 x = float(input())
 print(math.sin(math.radians(x)) + math.cos(math.radians(x)) + math.tan(math.radians(x)) ** 2)
+
+x = float(input())
+print(math.ceil(x) + math.floor(x))
