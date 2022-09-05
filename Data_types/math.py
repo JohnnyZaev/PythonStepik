@@ -13,3 +13,13 @@ print(math.sin(math.radians(x)) + math.cos(math.radians(x)) + math.tan(math.radi
 
 x = float(input())
 print(math.ceil(x) + math.floor(x))
+
+a, b, c = float(input()), float(input()), float(input())
+d = b ** 2 - 4 * a * c
+if d < 0:
+    print("Нет корней")
+elif d == 0:
+    print(-b / (2 * a))
+else:
+    x1, x2 = (-b + math.sqrt(d)) / (2 * a), (-b - math.sqrt(d)) / (2 * a)
+    print(min(x1, x2), max(x1, x2), sep='\n')
