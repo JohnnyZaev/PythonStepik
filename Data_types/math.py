@@ -23,3 +23,6 @@ elif d == 0:
 else:
     x1, x2 = (-b + math.sqrt(d)) / (2 * a), (-b - math.sqrt(d)) / (2 * a)
     print(min(x1, x2), max(x1, x2), sep='\n')
+
+n, a = int(input()), float(input())
+print((n * a ** 2) / (4 * math.tan(math.pi / n)))
