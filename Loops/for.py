@@ -13,3 +13,6 @@ print("E")
 for i in range(9):
     print("TTTTT")
 print("G")
+
+for i in range(int(input())):
+    print("*" * 19)
