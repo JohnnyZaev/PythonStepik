@@ -20,3 +20,6 @@ for i in range(int(input())):
 name = input()
 for i in range(10):
     print(i, name)
+
+for i in range(int(input()) + 1):
+    print("Квадрат числа", i, "равен", i ** 2)
