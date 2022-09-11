@@ -16,3 +16,7 @@ print("G")
 
 for i in range(int(input())):
     print("*" * 19)
+
+name = input()
+for i in range(10):
+    print(i, name)
