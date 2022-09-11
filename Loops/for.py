@@ -23,3 +23,8 @@ for i in range(10):
 
 for i in range(int(input()) + 1):
     print("Квадрат числа", i, "равен", i ** 2)
+
+w = int(input())
+for i in range(w):
+    print('*' * w)
+    w -= 1
