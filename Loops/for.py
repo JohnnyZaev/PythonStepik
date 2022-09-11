@@ -28,3 +28,7 @@ w = int(input())
 for i in range(w):
     print('*' * w)
     w -= 1
+
+a, b = int(input()), int(input())
+for i in range(int(input())):
+    print(i + 1, a * (b / 100 + 1) ** i)
