@@ -8,3 +8,9 @@ if (m < n):
 else:
     for i in range(m, n - 1, -1):
         print(i)
+
+m, n = int(input()), int(input())
+if (m % 2 == 0):
+   m -= 1
+for i in range(m, n - 1, -2):
+    print(i)
