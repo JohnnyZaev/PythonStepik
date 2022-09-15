@@ -24,3 +24,9 @@ for i in range(1, n + 1):
     if (temp % 10 == 2 or temp % 10 == 5 or temp % 10 == 8):
         result += i
 print(result)
+
+n = int(input())
+result = 1
+for i in range(1, n + 1):
+    result *= i
+print(result)
