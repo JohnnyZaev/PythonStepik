@@ -1,3 +1,11 @@
+import math
+
+n = int(input())
+result = 0
+for i in range(n):
+    result += 1 / (i + 1)
+print(result - math.log(n))
+
 counter = 0
 for i in range(int(input()), int(input()) + 1):
     if (i ** 3 % 10 == 4 or i ** 3 % 10 == 9):
