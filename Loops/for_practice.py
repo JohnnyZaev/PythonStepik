@@ -30,3 +30,10 @@ result = 1
 for i in range(1, n + 1):
     result *= i
 print(result)
+
+result = 1
+for i in range(10):
+    temp = int(input())
+    if (temp != 0):
+        result *= temp
+print(result)
