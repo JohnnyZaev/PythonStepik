@@ -44,3 +44,11 @@ for i in range(1, n + 1):
     if (n % i == 0):
         result += i
 print(result)
+
+result = 0
+for i in range(int(input()) + 1):
+    if (i + 1) % 2 == 0:
+        result += i
+    else:
+        result -= i
+print(result)
